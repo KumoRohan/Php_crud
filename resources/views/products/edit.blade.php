@@ -17,6 +17,13 @@
         <label>Price (Rs):</label><br>
         <input type="number" name="price" value="{{ $product->price }}" required><br><br>
 
+        <label>Description</label><br>
+        <input type="text" name="description" value="{{ $product->description }}" required><br><br>
+
+        <label>Stock:</label><br>
+        <input type="number" name="stock" value="{{ $product->stock }}" required><br><br>
+        
+
         <button type="submit">Update</button>
     </form>
 

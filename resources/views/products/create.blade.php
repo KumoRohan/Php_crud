@@ -16,6 +16,9 @@
         <label>Price (Rs):</label><br>
         <input type="number" name="price" required><br><br>
 
+        <label>Description:</label><br>
+        <input type="text" name="description" required><br><br>
+
         <button type="submit">Save</button>
     </form>
 
