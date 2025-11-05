@@ -19,6 +19,9 @@
         <label>Description:</label><br>
         <input type="text" name="description" required><br><br>
 
+        <label>Stock:</label><br>
+        <input type="number" name="stock" min="0" required><br><br>
+
         <button type="submit">Save</button>
     </form>
 
