@@ -40,4 +40,12 @@ class ProductController extends Controller
         return redirect()->route('products.index');
     }
 
+    public function apiIndex(){
+        $productp=  Product::select('id','name','price',)->get();
+        return response()->json([
+            'status' => 'success',
+            'data' => $productp
+        ]);
+    }
+
 }
